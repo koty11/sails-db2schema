@@ -2,7 +2,7 @@
   "name": "sails-db2schema",
   "version": "0.0.3",
   "description": "db sctructure to sails model schema",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha test/index.js"
   },
