@@ -4,7 +4,7 @@
   "description": "db sctructure to sails model schema",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/mocha/bin/mocha test/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/koty11/sails-db2schema/issues"
   },
-  "homepage": "https://github.com/koty11/sails-db2schema#readme"
+  "homepage": "https://github.com/koty11/sails-db2schema#readme",
+  "dependencies": {
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
 }
